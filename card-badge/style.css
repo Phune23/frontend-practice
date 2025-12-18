@@ -1,0 +1,26 @@
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+}
+
+.badge{
+    position: absolute;
+    background-color: green;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 25px;
+    left: 380px;
+    top:5px;
+    border:1px solid lawngreen;
+}
+
+@media (max-width: 480px) {
+  .image-wrapper,
+  .card-content {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
